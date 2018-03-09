@@ -8,8 +8,11 @@
   },
   "keywords": [
     "markdown",
+    "org-mode",
     "fold",
-    "folding"
+    "folding",
+    "collapse",
+    "heading"
   ],
   "main": "./lib/main",
   "devDependencies": {
