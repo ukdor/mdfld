@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "name": "orgfld",
   "description": "Folds org-mode markdown documents by heading level using * symbol",
   "repository": "https://github.com/ukdor/orgfld",
