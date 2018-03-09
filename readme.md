@@ -8,14 +8,14 @@ Additionally, Windows friendly key mapping is added via CTRL-ALT-key combination
 
 Windows Keymap:
 ```
-mdfld:unfold-all                ctrl-alt-] or ctrl-alt-0
-mdfld:fold-current-row          ctrl-alt-[
-mdfld:fold-at-heading-level-1   ctrl-alt-1
-mdfld:fold-at-heading-level-2   ctrl-alt-2
-mdfld:fold-at-heading-level-3   ctrl-alt-3
-mdfld:fold-at-heading-level-4   ctrl-alt-4
-mdfld:fold-at-heading-level-5   ctrl-alt-5
-mdfld:fold-at-heading-level-6   ctrl-alt-6
+orgfld:unfold-all                ctrl-alt-] or ctrl-alt-0
+orgfld:fold-current-row          ctrl-alt-[
+orgfld:fold-at-heading-level-1   ctrl-alt-1
+orgfld:fold-at-heading-level-2   ctrl-alt-2
+orgfld:fold-at-heading-level-3   ctrl-alt-3
+orgfld:fold-at-heading-level-4   ctrl-alt-4
+orgfld:fold-at-heading-level-5   ctrl-alt-5
+orgfld:fold-at-heading-level-6   ctrl-alt-6
 ```
 
 Demo (from mdfld):
