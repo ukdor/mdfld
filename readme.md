@@ -1,13 +1,13 @@
 # orgfld
 
-Atom's built-in folding commands use line indentation level to deduce the structure of the editor buffer. This works for most programming languages, but doesn't work for markdown documents.
+The source `mdfld` package implements folding in markdown files based on the heading character `#` (hash symbol).
 
-This package reimplements the default editor fold commands, but uses heading levels instead of indentation levels.
+This package reimplements the `mdfld` package using the asterisk `*` as the heading instead of the hash `#`.
 
-Commands:
+Additionally, Windows friendly key mapping is added via CTRL-ALT-key combinations when the grammars `GitHub Markdown (gfm)` or `Org-mode Syntax (org-mode)` are in use by the file.
 
+Windows Keymap:
 ```
-Windows Keymap
 mdfld:unfold-all                ctrl-alt-] or ctrl-alt-0
 mdfld:fold-current-row          ctrl-alt-[
 mdfld:fold-at-heading-level-1   ctrl-alt-1
