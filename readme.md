@@ -18,7 +18,8 @@ mdfld:fold-at-heading-level-5   ctrl-alt-5
 mdfld:fold-at-heading-level-6   ctrl-alt-6
 ```
 
-Demo:
+Demo (from mdfld):
+(Works using * instead of #)
 
 <img src="demo.gif" width=400>
 
