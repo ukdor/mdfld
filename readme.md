@@ -1,4 +1,4 @@
-# mdfld
+# orgfld
 
 Atom's built-in folding commands use line indentation level to deduce the structure of the editor buffer. This works for most programming languages, but doesn't work for markdown documents.
 
@@ -7,15 +7,15 @@ This package reimplements the default editor fold commands, but uses heading lev
 Commands:
 
 ```
-editor:fold-all                   mdfld:fold-all                  cmd-alt-{
-editor:unfold-all                 mdfld:unfold-all                cmd-alt-} or cmd-k cmd-0
-editor:fold-current-row           mdfld:fold-current-row          cmd-alt-[
-editor:fold-at-indent-level-1     mdfld:fold-at-heading-level-1   cmd-k cmd-1
-editor:fold-at-indent-level-2     mdfld:fold-at-heading-level-2   cmd-k cmd-2
-editor:fold-at-indent-level-3     mdfld:fold-at-heading-level-3   cmd-k cmd-3
-editor:fold-at-indent-level-4     mdfld:fold-at-heading-level-4   cmd-k cmd-4
-editor:fold-at-indent-level-5     mdfld:fold-at-heading-level-5   cmd-k cmd-5
-editor:fold-at-indent-level-6     mdfld:fold-at-heading-level-6   cmd-k cmd-6
+Windows Keymap
+mdfld:unfold-all                ctrl-alt-] or ctrl-alt-0
+mdfld:fold-current-row          ctrl-alt-[
+mdfld:fold-at-heading-level-1   ctrl-alt-1
+mdfld:fold-at-heading-level-2   ctrl-alt-2
+mdfld:fold-at-heading-level-3   ctrl-alt-3
+mdfld:fold-at-heading-level-4   ctrl-alt-4
+mdfld:fold-at-heading-level-5   ctrl-alt-5
+mdfld:fold-at-heading-level-6   ctrl-alt-6
 ```
 
 Demo:
@@ -24,6 +24,5 @@ Demo:
 
 ## See also
 
-* [markdown-folder](https://atom.io/packages/markdown-folder) - Good feature set, but was not updated to work with latest versions of Atom
-* [markdown-folding](https://atom.io/packages/markdown-folding) - I couldn't get used to the "cycle" command for folding sections
-* [markdown-fold](https://atom.io/packages/markdown-fold) - Only folds all heading levels or just the first
+* [mdfld](https://atom.io/packages/mfld) - Great implementation that is based on heading with "#" character
+* [org-mode](https://atom.io/packages/org-mode) - Grammar for org-mode (.org) files
