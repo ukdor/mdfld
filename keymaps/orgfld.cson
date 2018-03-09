@@ -1,0 +1,23 @@
+# Windows keymaps when using GitHub Markdown grammar (GFM)
+'atom-workspace atom-text-editor[data-grammar="source gfm"]:not([mini])':
+  'ctrl-alt-1': 'mdfld:fold-at-heading-level-1'
+  'ctrl-alt-2': 'mdfld:fold-at-heading-level-2'
+  'ctrl-alt-3': 'mdfld:fold-at-heading-level-3'
+  'ctrl-alt-4': 'mdfld:fold-at-heading-level-4'
+  'ctrl-alt-5': 'mdfld:fold-at-heading-level-5'
+  'ctrl-alt-6': 'mdfld:fold-at-heading-level-6'
+  'ctrl-alt-0': 'mdfld:unfold-all'
+  'ctrl-alt-[': 'mdfld:fold-current-row'
+  'ctrl-alt-]': 'mdfld:unfold-all'
+
+# Windows keymaps when using Org-mode Syntax grammar (org-mode)
+'atom-workspace atom-text-editor[data-grammar="source org-mode"]:not([mini])':
+  'ctrl-alt-1': 'mdfld:fold-at-heading-level-1'
+  'ctrl-alt-2': 'mdfld:fold-at-heading-level-2'
+  'ctrl-alt-3': 'mdfld:fold-at-heading-level-3'
+  'ctrl-alt-4': 'mdfld:fold-at-heading-level-4'
+  'ctrl-alt-5': 'mdfld:fold-at-heading-level-5'
+  'ctrl-alt-6': 'mdfld:fold-at-heading-level-6'
+  'ctrl-alt-0': 'mdfld:unfold-all'
+  'ctrl-alt-[': 'mdfld:fold-current-row'
+  'ctrl-alt-]': 'mdfld:unfold-all'
