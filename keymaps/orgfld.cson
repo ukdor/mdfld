@@ -8,7 +8,6 @@
   'ctrl-alt-6': 'orgfld:fold-at-heading-level-6'
   'ctrl-alt-0': 'orgfld:unfold-all'
   'ctrl-alt-[': 'orgfld:fold-current-row'
-  'ctrl-alt-]': 'orgfld:unfold-all'
 
 # Windows keymaps when using Org-mode Syntax grammar (org-mode)
 'atom-workspace atom-text-editor[data-grammar="source org-mode"]:not([mini])':
@@ -20,4 +19,3 @@
   'ctrl-alt-6': 'orgfld:fold-at-heading-level-6'
   'ctrl-alt-0': 'orgfld:unfold-all'
   'ctrl-alt-[': 'orgfld:fold-current-row'
-  'ctrl-alt-]': 'orgfld:unfold-all'
