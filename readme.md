@@ -19,7 +19,9 @@ orgfld:fold-at-heading-level-6   ctrl-alt-6
 
 To unfold the current row, use the Atom built-in "editor:unfold-current-row" with default hotkey "ctrl-alt-]"
 
-* Note: the Atom built-in "editor:fold-current-row" doesn't work for * folding.  If disabling "orgfld:fold-current-row", then the unfold won't work either.  Use orgfld:fold-current-row and Atom built-in "editor:unfold-current-row" to achieve expected results.
+* Note: the Atom built-in "editor:fold-current-row" doesn't work for * folding.
+    If disabling "orgfld:fold-current-row", then the unfold won't work either.
+    Use orgfld:fold-current-row and Atom built-in "editor:unfold-current-row" to achieve expected results.
 ```
 
 Demo:
