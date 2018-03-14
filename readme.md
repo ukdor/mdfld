@@ -18,8 +18,7 @@ orgfld:fold-at-heading-level-5   ctrl-alt-5
 orgfld:fold-at-heading-level-6   ctrl-alt-6
 ```
 
-Demo (from mdfld):
-(Works using * instead of #)
+Demo:
 
 <img src="demo.gif" width=400>
 
