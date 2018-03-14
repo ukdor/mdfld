@@ -8,7 +8,7 @@ Additionally, Windows friendly key mapping is added via CTRL-ALT-key combination
 
 Windows Keymap:
 ```
-orgfld:unfold-all                ctrl-alt-] or ctrl-alt-0
+orgfld:unfold-all                ctrl-alt-0
 orgfld:fold-current-row          ctrl-alt-[
 orgfld:fold-at-heading-level-1   ctrl-alt-1
 orgfld:fold-at-heading-level-2   ctrl-alt-2
@@ -16,6 +16,10 @@ orgfld:fold-at-heading-level-3   ctrl-alt-3
 orgfld:fold-at-heading-level-4   ctrl-alt-4
 orgfld:fold-at-heading-level-5   ctrl-alt-5
 orgfld:fold-at-heading-level-6   ctrl-alt-6
+
+To unfold the current row, use the Atom built-in "editor:unfold-current-row" with default hotkey "ctrl-alt-]"
+
+* Note: the Atom built-in "editor:fold-current-row" doesn't work for * folding.  If disabling "orgfld:fold-current-row", then the unfold won't work either.  Use orgfld:fold-current-row and Atom built-in "editor:unfold-current-row" to achieve expected results.
 ```
 
 Demo:
